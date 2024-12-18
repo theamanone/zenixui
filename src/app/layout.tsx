@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'GitHub Profile Enhancer',
-  description: 'Boost your GitHub profile with achievement tracking and recommendations',
+  title: 'GitHub Achievement Hunter',
+  description: 'Track and unlock GitHub achievements to level up your profile',
 }
 
 export default function RootLayout({
@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

@@ -1,65 +1,54 @@
-# GitHub Profile Enhancer 🚀
+# React UI Components Library 🎨
 
-An intelligent tool to boost your GitHub profile by tracking achievements and suggesting activities to earn more recognition in the developer community.
+A modern, lightweight React component library with beautiful UI elements.
 
-## Features 🌟
+## Components
 
-- Track all available GitHub achievements
-- Real-time achievement progress monitoring
-- Smart suggestions for profile enhancement
-- Activity recommendations for earning achievements
-- Contribution analytics and insights
-- Profile optimization tips
+- Button
+- Card
+- Input
+- Alert
+- Modal
+- Tooltip
+- Badge
+- Progress Bar
+- Avatar
+- Toggle
 
-## Tech Stack 💻
+## Features
 
-### Frontend
-- Next.js
-- React
-- TypeScript
-- TailwindCSS
+- 🎯 Modern Design
+- ⚡ Lightweight
+- 🎨 Customizable
+- 📱 Responsive
+- 🌙 Dark Mode Support
+- ♿ Accessible
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- GitHub API Integration
+## Installation
 
-### DevOps
-- Docker
-- AWS
-- Vercel
-
-## Getting Started 🎯
-
-1. Clone the repository
 ```bash
-git clone https://github.com/theamanone/enhancer.git
+npm install @theamanone/react-ui
 ```
 
-2. Install dependencies
-```bash
-cd enhancer
-npm install
+## Usage
+
+```jsx
+import { Button, Card } from '@theamanone/react-ui';
+
+function App() {
+  return (
+    <Card>
+      <h1>Welcome!</h1>
+      <Button variant="primary">Click Me</Button>
+    </Card>
+  );
+}
 ```
 
-3. Set up environment variables
-```bash
-cp .env.example .env
-```
-
-4. Run the development server
-```bash
-npm run dev
-```
-
-## Contributing 🤝
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License 📝
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-Created with ❤️ by [Aman](https://github.com/theamanone)
+MIT 
